@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import GoogleMapReact from 'google-map-react';
 
-import flats from '../src/flats.js';
+import flats from '../flats.js';
 
 class App extends Component {
   constructor(props) {
