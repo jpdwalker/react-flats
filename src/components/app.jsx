@@ -6,8 +6,7 @@ class App extends Component {
     super(props);
 
     this.state = {
-      lat: 48.884211,
-      lng: 2.34689
+      selectedFlat: flats[0].
     };
   }
 
