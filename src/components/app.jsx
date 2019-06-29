@@ -11,7 +11,7 @@ class App extends Component {
 
     this.state = {
       selectedFlat: flats[0]
-      // flats
+      flats
     };
   }
 
