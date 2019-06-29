@@ -1,13 +1,9 @@
 import React, { Component } from 'react';
 
 class Flat extends Component {
-  // constructor(props) {
-  //   super(props)
-
-
-  // }
-
-  // handleClick = (event)
+   handleClick = () => {
+    this.props.selectFlat(this.props.index);
+  }
 
 
   render() {
