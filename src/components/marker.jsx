@@ -1,1 +1,1 @@
-marker.jsx
+import React, { Component } from 'react';
