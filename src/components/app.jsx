@@ -15,15 +15,16 @@ class App extends Component {
     };
   }
 
+
+  selectFlat = (index) => {
+    this.setState({ selectedFlat: flats[index] });
+  }
+
   center() {
     return {
       lat: this.state.selectedFlat.lat,
       lng: this.state.selectedFlat.lng
     };
-  }
-
-  selectFlat = (index) => {
-    this.setState({ selectedFlat: flats[index] });
   }
 
   render() {
