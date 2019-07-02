@@ -15,7 +15,6 @@ class App extends Component {
     };
   }
 
-
   selectFlat = (index) => {
     this.setState({ selectedFlat: flats[index] });
   }
